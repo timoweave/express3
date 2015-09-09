@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>The Great Button Game</title>
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+        <link href="http://www.w3schools.com/w3css/w3.css" rel="stylesheet"/>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+        
+    </head>
+
+    <body>
+        <h1>
+            The button has been pushed <span id="epic_button_count"><%= epic_button_count %></span> time(s)
+        </h1>
+
+        <div id="increase_epic_button">
+            <p>push the button to update the count!</p>
+            <button>Push the Epic Button</button>
+        </div>
+
+        <div id="epic_button_footnote">
+            <p>
+                Pushing the blue button updates the count by one. The
+                count should be updated on the server and displayed in
+                REAL TIME. Pushing the red button resets the count to
+                0.
+            </p>
+            <button id="reset_epic_button">Reset Count</button>
+        </div>
+
+
+        <div>
+            <script src="js/index.js"></script>
+
+        </div>
+    </body>
+</html>

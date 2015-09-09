@@ -1,0 +1,63 @@
+
+* {
+    font-family: 'Indie Flower', cursive;
+}
+
+h1 { /* some reason "*" {} misses h1 */
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#increase_epic_button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#increase_epic_button p {
+    text-align: center;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+#increase_epic_button button {
+    text-align: center;
+    display: block;
+    background-color: #4e52b7;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 1.0em 1.0em;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#epic_button_footnote {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#epic_button_footnote p {
+    background-color: yellow;
+    width: 58%;
+    display: inline-block;
+    margin: 4% 4%;
+    padding: 2% 2%;
+}
+
+#epic_button_footnote #reset_epic_button {
+    background-color: red;
+    /* width: 40%; */
+    display: inline-block;
+    color: white;
+    padding: 0.5em 1em;
+    border-color: black;
+    box-shadow: 0.25em 0.25em 0.25em black;
+    margin-left: 1%;
+    margin-right: 1%;
+}

@@ -62,15 +62,16 @@ body {
     margin-right: 1%;
 }
 
-#epic_button_footnote div {
+#epic_button_footnote span {
+    dispaly: block;
     width: 4em;
     height: 2em;
     background-color: red;
     opacity: 0.5;
     transform: rotate(-7deg);
-    display:inline-block;
+    display:block;
     position:relative;
     left: 35%;
-    top: 0.45em;
+    top: -2.5em;
     vertical-align: top;
 }
